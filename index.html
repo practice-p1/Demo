@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARJUN VARMA | Actor</title>
+<meta name="description" content="Official actor portfolio — profile, showreel, projects, gallery and casting contact.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{background:#080808;color:#fff;font-family:"DM Sans",sans-serif;overflow-x:hidden}a{color:inherit;text-decoration:none}img{width:100%;display:block}button{font-family:inherit}
+:root{--gold:#d5ad62;--gold-light:#f1d18e;--black:#080808}
+.loader{position:fixed;inset:0;background:#080808;z-index:9999;display:flex;align-items:center;justify-content:center;transition:.8s}.loader.hide{opacity:0;visibility:hidden}.loader-content{text-align:center}.loader-name{font-family:"Playfair Display",serif;font-size:42px;letter-spacing:5px}.loader-line{width:0;height:2px;background:var(--gold);margin:18px auto;animation:load 1.5s forwards}@keyframes load{to{width:180px}}
+.navbar{position:fixed;top:0;left:0;width:100%;padding:24px 6%;z-index:1000;display:flex;justify-content:space-between;align-items:center;transition:.4s}.navbar.scrolled{background:rgba(8,8,8,.94);backdrop-filter:blur(12px);padding:16px 6%;border-bottom:1px solid #222}.logo{font-family:"Playfair Display",serif;font-size:24px;letter-spacing:3px}.logo span{color:var(--gold)}.nav-links{display:flex;gap:30px;list-style:none}.nav-links a{font-size:13px;letter-spacing:1.5px;text-transform:uppercase;position:relative}.nav-links a:after{content:"";position:absolute;bottom:-7px;left:0;width:0;height:1px;background:var(--gold);transition:.3s}.nav-links a:hover:after{width:100%}.menu{display:none;font-size:28px;cursor:pointer}
+.hero{height:100vh;min-height:700px;position:relative;display:flex;align-items:center;overflow:hidden}.hero-bg{position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.92),rgba(0,0,0,.55),rgba(0,0,0,.2)),url("https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1800&q=90") center/cover;transform:scale(1.05)}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#080808,transparent 25%,transparent 80%,rgba(0,0,0,.3))}.hero-content{position:relative;z-index:2;width:90%;max-width:1300px;margin:auto}.hero-small{color:var(--gold);text-transform:uppercase;letter-spacing:6px;font-size:13px;margin-bottom:20px}.hero h1{font-family:"Playfair Display",serif;font-size:clamp(65px,10vw,150px);line-height:.85;font-weight:500;max-width:900px}.hero h1 span,.section-title span,.contact-text h2 span{color:var(--gold)}.hero-description{max-width:520px;color:#ccc;line-height:1.8;margin-top:30px;font-size:16px}.hero-buttons{display:flex;gap:15px;margin-top:35px}.btn{padding:15px 28px;border:1px solid var(--gold);text-transform:uppercase;letter-spacing:2px;font-size:11px;transition:.3s;cursor:pointer}.btn-primary{background:var(--gold);color:#080808}.btn:hover{background:var(--gold-light);color:#000}.btn-outline{background:transparent;color:#fff}.scroll{position:absolute;z-index:3;bottom:30px;left:6%;writing-mode:vertical-rl;font-size:10px;letter-spacing:4px;color:#aaa}
+section{padding:120px 7%}.section-header{margin-bottom:60px}.section-number{color:var(--gold);font-size:12px;letter-spacing:3px;margin-bottom:15px}.section-title{font-family:"Playfair Display",serif;font-size:clamp(45px,6vw,85px);font-weight:500}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}.about-image{position:relative}.about-image img{height:650px;object-fit:cover;filter:grayscale(15%)}.about-image:before{content:"";position:absolute;top:-20px;left:-20px;width:100px;height:100px;border-left:1px solid var(--gold);border-top:1px solid var(--gold)}.about-text h3{font-family:"Playfair Display",serif;font-size:35px;font-weight:500;margin-bottom:25px}.about-text p{color:#aaa;line-height:1.9;margin-bottom:20px}.details{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin-top:35px}.detail{border-top:1px solid #292929;padding-top:15px}.detail small{color:#777;display:block;text-transform:uppercase;letter-spacing:1px;font-size:10px;margin-bottom:6px}.detail strong{font-weight:500}
+.showreel,.gallery,.timeline{background:#0d0d0d}.video-container{position:relative;width:100%;height:650px;overflow:hidden;background:#151515}.video-container video{width:100%;height:100%;object-fit:cover}.video-overlay{position:absolute;inset:0;display:flex;justify-content:center;align-items:center;background:rgba(0,0,0,.25)}.play-button{width:90px;height:90px;border:1px solid #ddd;border-radius:50%;display:flex;justify-content:center;align-items:center;cursor:pointer;transition:.3s}.play-button:hover{background:var(--gold);border-color:var(--gold);color:#000;transform:scale(1.1)}.play-button:after{content:"▶";margin-left:4px}
+.projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}.project{position:relative;height:520px;overflow:hidden;cursor:pointer}.project img{height:100%;object-fit:cover;transition:.7s}.project:hover img{transform:scale(1.08)}.project:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 40%,rgba(0,0,0,.9))}.project-info{position:absolute;bottom:30px;left:30px;z-index:2}.project-info small{color:var(--gold);letter-spacing:2px}.project-info h3{font-family:"Playfair Display",serif;font-size:32px;margin-top:8px}
+.gallery-grid{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:260px;gap:12px}.gallery-item{overflow:hidden;cursor:pointer;position:relative}.gallery-item img{height:100%;object-fit:cover;transition:.5s}.gallery-item:hover img{transform:scale(1.06)}.g1{grid-column:span 5;grid-row:span 2}.g2{grid-column:span 3}.g3{grid-column:span 4}.g4{grid-column:span 4}.g5{grid-column:span 3}.g6{grid-column:span 5}
+.skills-container{display:grid;grid-template-columns:1fr 1fr;gap:80px}.skill{margin-bottom:30px}.skill-head{display:flex;justify-content:space-between;margin-bottom:10px;text-transform:uppercase;font-size:11px;letter-spacing:2px}.skill-bar{height:2px;background:#292929}.skill-progress{height:100%;width:0;background:var(--gold);transition:2s}.skills-list{display:flex;flex-wrap:wrap;gap:12px;align-content:flex-start}.skill-tag{border:1px solid #333;padding:14px 20px;color:#aaa;transition:.3s}.skill-tag:hover{border-color:var(--gold);color:var(--gold)}
+.timeline-container{max-width:1000px;margin:auto}.timeline-item{display:grid;grid-template-columns:150px 1fr;gap:40px;padding:35px 0;border-bottom:1px solid #292929}.timeline-year{color:var(--gold);font-family:"Playfair Display",serif;font-size:24px}.timeline-content h3{font-family:"Playfair Display",serif;font-size:28px;margin-bottom:8px}.timeline-content p{color:#888;line-height:1.7}
+.awards{text-align:center}.awards-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.award{border:1px solid #292929;padding:50px 25px;transition:.3s}.award:hover{border-color:var(--gold);transform:translateY(-8px)}.award-icon{font-size:35px;margin-bottom:20px}.award h3{font-family:"Playfair Display",serif;font-size:25px}.award p{color:#777;margin-top:10px}
+.contact{background:linear-gradient(rgba(8,8,8,.88),rgba(8,8,8,.95)),url("https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1800&q=85") center/cover fixed}.contact-wrapper{display:grid;grid-template-columns:1fr 1fr;gap:100px}.contact-text h2{font-family:"Playfair Display",serif;font-size:clamp(50px,7vw,90px);font-weight:500}.contact-text p{color:#aaa;line-height:1.8;max-width:500px;margin-top:25px}.contact-details{margin-top:40px}.contact-details a{display:block;color:#ddd;margin:15px 0;transition:.3s}.contact-details a:hover{color:var(--gold)}.contact-form{display:flex;flex-direction:column;gap:18px}.contact-form input,.contact-form textarea{width:100%;background:rgba(255,255,255,.04);border:1px solid #333;color:white;padding:18px;outline:none;font-family:inherit}.contact-form input:focus,.contact-form textarea:focus{border-color:var(--gold)}.contact-form textarea{min-height:160px;resize:vertical}.contact-form button{align-self:flex-start}
+footer{padding:35px 7%;border-top:1px solid #222;display:flex;justify-content:space-between;color:#666;font-size:12px}.socials{display:flex;gap:20px}.socials a:hover{color:var(--gold)}
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.95);z-index:9998;display:none;align-items:center;justify-content:center;padding:30px}.lightbox.active{display:flex}.lightbox img{max-width:90%;max-height:90vh;width:auto;object-fit:contain}.close-lightbox{position:absolute;top:25px;right:35px;font-size:40px;cursor:pointer}
+.reveal{opacity:0;transform:translateY(50px);transition:1s ease}.reveal.active{opacity:1;transform:translateY(0)}
+@media(max-width:900px){.nav-links{position:absolute;top:70px;right:5%;width:220px;padding:25px;background:#111;flex-direction:column;gap:20px;display:none}.nav-links.active{display:flex}.menu{display:block}.about,.skills-container,.contact-wrapper{grid-template-columns:1fr;gap:50px}.about-image img{height:500px}.projects-grid{grid-template-columns:1fr}.project{height:500px}.gallery-grid{display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:220px}.g1,.g2,.g3,.g4,.g5,.g6{grid-column:span 1;grid-row:span 1}.g1{grid-column:span 2}.video-container{height:400px}.awards-grid{grid-template-columns:1fr}}
+@media(max-width:600px){section{padding:80px 6%}.hero{min-height:650px}.hero h1{font-size:62px}.hero-description{font-size:14px}.hero-buttons{flex-direction:column;width:220px}.details{grid-template-columns:1fr}.timeline-item{grid-template-columns:1fr;gap:10px}.gallery-grid{grid-template-columns:1fr}.g1{grid-column:span 1}footer{flex-direction:column;gap:20px}}
+</style>
+</head>
+<body>
+
+<div class="loader" id="loader"><div class="loader-content"><div class="loader-name">AV</div><div class="loader-line"></div><small>ACTOR • PERFORMER • STORYTELLER</small></div></div>
+
+<header class="navbar" id="navbar">
+<a href="#home" class="logo">A<span>V</span></a>
+<nav><ul class="nav-links" id="navLinks">
+<li><a href="#about">About</a></li><li><a href="#showreel">Showreel</a></li><li><a href="#projects">Projects</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#skills">Skills</a></li><li><a href="#contact">Contact</a></li>
+</ul></nav>
+<div class="menu" id="menu">☰</div>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-bg"></div>
+<div class="hero-content reveal">
+<div class="hero-small">Actor • Performer • Storyteller</div>
+<h1>ARJUN<br><span>VARMA</span></h1>
+<p class="hero-description">Bringing characters to life through emotion, presence and performance. Available for films, web series, short films, commercials and creative projects.</p>
+<div class="hero-buttons"><a href="#showreel" class="btn btn-primary">Watch Showreel</a><a href="#contact" class="btn btn-outline">Contact / Casting</a></div>
+</div>
+<div class="scroll">SCROLL TO EXPLORE</div>
+</section>
+
+<section id="about">
+<div class="section-header reveal"><div class="section-number">01 — PROFILE</div><h2 class="section-title">About <span>Me</span></h2></div>
+<div class="about">
+<div class="about-image reveal"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1000&q=85" alt="Actor portrait"></div>
+<div class="about-text reveal">
+<h3>Every character has a story. I make people feel it.</h3>
+<p>I am Arjun Varma, an actor passionate about creating authentic and memorable characters. My approach to acting is built around observation, emotional depth and complete commitment to the character.</p>
+<p>From intense dramatic roles to light-hearted comedy, I enjoy exploring different characters and working with filmmakers who have something meaningful to say.</p>
+<div class="details">
+<div class="detail"><small>Based In</small><strong>Hyderabad, India</strong></div>
+<div class="detail"><small>Languages</small><strong>Telugu • Hindi • English</strong></div>
+<div class="detail"><small>Height</small><strong>5'11"</strong></div>
+<div class="detail"><small>Availability</small><strong>India & International</strong></div>
+</div>
+</div></div>
+</section>
+
+<section class="showreel" id="showreel">
+<div class="section-header reveal"><div class="section-number">02 — SHOWREEL</div><h2 class="section-title">Watch Me <span>Perform</span></h2></div>
+<div class="video-container reveal">
+<video id="showreelVideo" poster="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1600&q=85"><source src="showreel.mp4" type="video/mp4">Your browser does not support video.</video>
+<div class="video-overlay" id="videoOverlay"><div class="play-button" id="playButton"></div></div>
+</div>
+</section>
+
+<section id="projects">
+<div class="section-header reveal"><div class="section-number">03 — SELECTED WORK</div><h2 class="section-title">Featured <span>Projects</span></h2></div>
+<div class="projects-grid">
+<article class="project reveal"><img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=900&q=85" alt="Film project"><div class="project-info"><small>FEATURE FILM • 2026</small><h3>The Last Frame</h3><p>Lead Actor</p></div></article>
+<article class="project reveal"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=85" alt="Short film"><div class="project-info"><small>SHORT FILM • 2025</small><h3>Echoes</h3><p>Supporting Actor</p></div></article>
+<article class="project reveal"><img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=900&q=85" alt="Web series"><div class="project-info"><small>WEB SERIES • 2025</small><h3>Between Lines</h3><p>Lead Role</p></div></article>
+</div>
+</section>
+
+<section class="gallery" id="gallery">
+<div class="section-header reveal"><div class="section-number">04 — VISUALS</div><h2 class="section-title">The <span>Gallery</span></h2></div>
+<div class="gallery-grid">
+<div class="gallery-item g1 reveal"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1000&q=85" alt="Actor portrait"></div>
+<div class="gallery-item g2 reveal"><img src="https://images.unsplash.com/photo-1504257432389-52343af06ae3?auto=format&fit=crop&w=700&q=85" alt="Actor"></div>
+<div class="gallery-item g3 reveal"><img src="https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=700&q=85" alt="Actor portrait"></div>
+<div class="gallery-item g4 reveal"><img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=700&q=85" alt="Actor"></div>
+<div class="gallery-item g5 reveal"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=85" alt="Actor"></div>
+<div class="gallery-item g6 reveal"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1000&q=85" alt="Actor portrait"></div>
+</div>
+</section>
+
+<section id="skills">
+<div class="section-header reveal"><div class="section-number">05 — EXPERTISE</div><h2 class="section-title">Skills & <span>Strengths</span></h2></div>
+<div class="skills-container">
+<div class="reveal">
+<div class="skill"><div class="skill-head"><span>Acting</span><span>95%</span></div><div class="skill-bar"><div class="skill-progress" data-width="95%"></div></div></div>
+<div class="skill"><div class="skill-head"><span>Dialogue Delivery</span><span>92%</span></div><div class="skill-bar"><div class="skill-progress" data-width="92%"></div></div></div>
+<div class="skill"><div class="skill-head"><span>Emotional Performance</span><span>94%</span></div><div class="skill-bar"><div class="skill-progress" data-width="94%"></div></div></div>
+<div class="skill"><div class="skill-head"><span>Dance</span><span>82%</span></div><div class="skill-bar"><div class="skill-progress" data-width="82%"></div></div></div>
+</div>
+<div class="skills-list reveal"><div class="skill-tag">Lead Roles</div><div class="skill-tag">Character Acting</div><div class="skill-tag">Comedy</div><div class="skill-tag">Drama</div><div class="skill-tag">Action</div><div class="skill-tag">Romance</div><div class="skill-tag">Dance</div><div class="skill-tag">Modelling</div><div class="skill-tag">Voice Acting</div><div class="skill-tag">Improvisation</div><div class="skill-tag">Telugu</div><div class="skill-tag">Hindi</div><div class="skill-tag">English</div></div>
+</div>
+</section>
+
+<section class="timeline">
+<div class="section-header reveal"><div class="section-number">06 — JOURNEY</div><h2 class="section-title">My <span>Journey</span></h2></div>
+<div class="timeline-container">
+<div class="timeline-item reveal"><div class="timeline-year">2026</div><div class="timeline-content"><h3>The Last Frame</h3><p>Lead role in a feature film exploring ambition, relationships and the consequences of difficult choices.</p></div></div>
+<div class="timeline-item reveal"><div class="timeline-year">2025</div><div class="timeline-content"><h3>Between Lines</h3><p>Played the lead character in a dramatic web series focused on modern relationships.</p></div></div>
+<div class="timeline-item reveal"><div class="timeline-year">2024</div><div class="timeline-content"><h3>Echoes</h3><p>Featured in an award-winning independent short film.</p></div></div>
+<div class="timeline-item reveal"><div class="timeline-year">2023</div><div class="timeline-content"><h3>Started Acting</h3><p>Began professional acting journey through theatre, workshops and independent productions.</p></div></div>
+</div>
+</section>
+
+<section class="awards">
+<div class="section-header reveal"><div class="section-number">07 — RECOGNITION</div><h2 class="section-title">Awards & <span>Achievements</span></h2></div>
+<div class="awards-grid">
+<div class="award reveal"><div class="award-icon">🏆</div><h3>Best Actor</h3><p>Independent Film Awards • 2025</p></div>
+<div class="award reveal"><div class="award-icon">★</div><h3>Best Performance</h3><p>Short Film Festival • 2024</p></div>
+<div class="award reveal"><div class="award-icon">🎬</div><h3>Featured Artist</h3><p>Emerging Talent Showcase • 2024</p></div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="contact-wrapper">
+<div class="contact-text reveal">
+<div class="section-number">08 — GET IN TOUCH</div><h2>Let's Create<br><span>Something.</span></h2>
+<p>For casting opportunities, films, web series, commercials, collaborations and other professional enquiries, get in touch.</p>
+<div class="contact-details"><a href="mailto:actor@email.com">actor@email.com</a><a href="tel:+919999999999">+91 99999 99999</a><a href="#">Instagram → @actorname</a><a href="#">YouTube → Actor Name</a></div>
+</div>
+<form class="contact-form reveal" id="contactForm"><input type="text" placeholder="Your Name" required><input type="email" placeholder="Your Email" required><input type="text" placeholder="Subject"><textarea placeholder="Tell me about your project..." required></textarea><button type="submit" class="btn btn-primary">Send Enquiry</button></form>
+</div>
+</section>
+
+<footer><div>© 2026 Arjun Varma. All Rights Reserved.</div><div class="socials"><a href="#">Instagram</a><a href="#">YouTube</a><a href="#">Facebook</a></div></footer>
+
+<div class="lightbox" id="lightbox"><div class="close-lightbox" id="closeLightbox">×</div><img id="lightboxImage" src="" alt="Gallery"></div>
+
+<script>
+window.addEventListener("load",()=>setTimeout(()=>document.getElementById("loader").classList.add("hide"),1000));
+const navbar=document.getElementById("navbar");
+window.addEventListener("scroll",()=>navbar.classList.toggle("scrolled",window.scrollY>50));
+const menu=document.getElementById("menu"),navLinks=document.getElementById("navLinks");
+menu.addEventListener("click",()=>navLinks.classList.toggle("active"));
+document.querySelectorAll(".nav-links a").forEach(a=>a.addEventListener("click",()=>navLinks.classList.remove("active")));
+
+const reveals=document.querySelectorAll(".reveal");
+const revealObserver=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("active")}),{threshold:.12});
+reveals.forEach(e=>revealObserver.observe(e));
+
+const skills=document.querySelectorAll(".skill-progress");
+const skillObserver=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.style.width=e.target.dataset.width}),{threshold:.5});
+skills.forEach(e=>skillObserver.observe(e));
+
+const video=document.getElementById("showreelVideo"),overlay=document.getElementById("videoOverlay");
+document.getElementById("playButton").addEventListener("click",()=>{video.play();overlay.style.display="none"});
+video.addEventListener("pause",()=>overlay.style.display="flex");
+video.addEventListener("ended",()=>overlay.style.display="flex");
+
+const lightbox=document.getElementById("lightbox"),lightboxImage=document.getElementById("lightboxImage");
+document.querySelectorAll(".gallery-item img").forEach(img=>img.addEventListener("click",()=>{lightboxImage.src=img.src;lightbox.classList.add("active")}));
+document.getElementById("closeLightbox").addEventListener("click",()=>lightbox.classList.remove("active"));
+lightbox.addEventListener("click",e=>{if(e.target===lightbox)lightbox.classList.remove("active")});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")lightbox.classList.remove("active")});
+
+document.getElementById("contactForm").addEventListener("submit",function(e){e.preventDefault();alert("Thank you! Your enquiry has been received.");this.reset()});
+</script>
+</body>
+</html>
